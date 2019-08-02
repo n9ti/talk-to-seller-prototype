@@ -106,7 +106,11 @@ export default {
         await window.liff.sendMessages([
           {
             type: "text",
-            text: `${this.msg}\r\n${url}`
+            text: `${url}`
+          },
+          {
+            type: "text",
+            text: `${this.msg}`
           }
         ]);
       } finally {
