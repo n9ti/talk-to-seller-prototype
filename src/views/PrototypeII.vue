@@ -43,10 +43,14 @@ export default {
   },
   methods: {
     async sendMessages(msg) {
-      window.liff.openWindow({
-        url: `line://oaMessage/@434xepgn/?${msg}`,
-        external: true
-      });
+      try {
+        window.liff.openWindow({
+          url: `line://oaMessage/@434xepgn/?${msg}`,
+          external: true
+        });
+      } catch (e) {
+        window.location = `line://oaMessage/@434xepgn/?${msg}`;
+      }
     }
   }
 };
