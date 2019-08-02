@@ -3,7 +3,7 @@
     <section class="">
       <div class="container mx-auto">
         <div class="px-6 py-4">
-          <img src="../assets/products/adidas.jpg" alt="" />
+          <img src="../assets/products/newb.jpg" alt="" />
           <div class="mt-4 flex flex-col ml-4">
             <p class="break-words font-bold text-gray-800">
               NEW BALANCE M997NM MADE IN USA
