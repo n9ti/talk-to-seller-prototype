@@ -92,6 +92,7 @@ export default {
   },
   mounted() {
     window.liff.init();
+    document.title = "Prototype C";
   },
   methods: {
     openModel() {

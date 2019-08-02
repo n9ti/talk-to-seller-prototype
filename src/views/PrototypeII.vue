@@ -39,6 +39,7 @@
 export default {
   mounted() {
     window.liff.init();
+    document.title = "Prototype B";
   },
   methods: {
     async sendMessages(msg) {
