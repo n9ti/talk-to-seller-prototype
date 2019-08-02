@@ -112,6 +112,7 @@ export default {
       } finally {
         this.show = false;
         this.$toast.top("Messages sent");
+        window.liff.closeWindow();
       }
     }
   }
