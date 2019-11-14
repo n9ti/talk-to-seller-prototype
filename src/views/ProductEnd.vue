@@ -108,17 +108,12 @@ export default {
             type: "text",
             text: `${this.msg} \r\n→ ${url}`
           }
-          // {
-          //   type: "text",
-          //   text: `${this.msg}`
-          // }
         ]);
         this.$toast.top("Messages sent");
       } catch (e) {
         window.location = `line://oaMessage/@434xepgn/?${this.msg} \r\n→ ${url}`;
       } finally {
         this.show = false;
-        // window.liff.closeWindow();
       }
     }
   }
