@@ -106,7 +106,7 @@ export default {
         await window.liff.sendMessages([
           {
             type: "text",
-            text: `${this.msg} \r\n🔗 ${url}`
+            text: `${this.msg} \r\n→ ${url}`
           }
           // {
           //   type: "text",
@@ -114,7 +114,7 @@ export default {
           // }
         ]);
       } catch (e) {
-        window.location = `line://oaMessage/@434xepgn/?${this.msg} \r\n🔗 ${url}`;
+        window.location = `line://oaMessage/@434xepgn/?${this.msg} \r\n→ ${url}`;
       } finally {
         this.show = false;
         this.$toast.top("Messages sent");
