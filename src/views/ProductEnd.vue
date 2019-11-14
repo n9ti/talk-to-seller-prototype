@@ -18,11 +18,12 @@
             >
               Talk to seller
             </button>
-            <button
+            <a
+              href="lineb://ti/p/@434xepgn"
               class="mx-2 w-full bg-green-400 text-xl text-white py-2 px-4 hover:bg-green-500 rounded"
             >
               Buy Now
-            </button>
+            </a>
           </div>
         </div>
       </div>
