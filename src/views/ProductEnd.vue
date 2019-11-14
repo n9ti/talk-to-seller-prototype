@@ -107,11 +107,11 @@ export default {
           {
             type: "text",
             text: `${this.msg} \r\n🔗 ${url}`
-          },
-          {
-            type: "text",
-            text: `${this.msg}`
           }
+          // {
+          //   type: "text",
+          //   text: `${this.msg}`
+          // }
         ]);
       } catch (e) {
         window.location = `line://oaMessage/@434xepgn/?${this.msg} \r\n🔗 ${url}`;
