@@ -5,6 +5,7 @@ import Home from "./views/Home.vue";
 import PrototypeI from "./views/PrototypeI.vue";
 import PrototypeII from "./views/PrototypeII.vue";
 import PrototypeIII from "./views/PrototypeIII.vue";
+import ProductEnd from "./views/ProductEnd.vue";
 
 Vue.use(Router);
 
@@ -16,6 +17,11 @@ export default new Router({
       path: "/",
       name: "home",
       component: Home
+    },
+    {
+      path: "/productend",
+      name: "ProductEnd",
+      component: ProductEnd
     },
     {
       path: "/PrototypeI",
