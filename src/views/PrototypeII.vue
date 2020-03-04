@@ -45,7 +45,7 @@ export default {
     async sendMessages(msg) {
       try {
         window.liff.openWindow({
-          url: `line://oaMessage/@434xepgn/?${msg}`,
+          url: `line://oaMessage/@434xepgn/?${encodeURIComponent(msg)}`,
           external: true
         });
       } catch (e) {
