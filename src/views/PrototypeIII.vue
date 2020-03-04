@@ -100,8 +100,7 @@ export default {
       this.$nextTick(() => this.$refs.textInput.focus());
     },
     async sendMessages() {
-      let url =
-        "https://shopee.co.th/Ready-Stock-NEW-BALANCE-M997NM-MADE-IN-USA1849378307-i.162968657.2495003037";
+      let url = "https://shop.line.me/@jibicactus";
       try {
         await window.liff.sendMessages([
           {

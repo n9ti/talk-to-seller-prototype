@@ -1,5 +1,6 @@
 <template>
   <div class="min-h-screen">
+    <iframe v-if="showIframe" src="line://ti/p/@434xepgn"></iframe>
     <section class="">
       <div class="container mx-auto">
         <div class="px-6 py-4">
@@ -18,12 +19,12 @@
             >
               Talk to seller
             </button>
-            <a
-              href="line://ti/p/@434xepgn"
+            <button
+              @click="tryOpen"
               class="mx-2 w-full bg-green-400 text-xl text-white py-2 px-4 hover:bg-green-500 rounded"
             >
-              Buy Now
-            </a>
+              Buy Nowx
+            </button>
           </div>
         </div>
       </div>
@@ -88,7 +89,9 @@ export default {
   data() {
     return {
       show: false,
-      msg: ""
+      msg: "",
+      isBlur: false,
+      showIframe: false
     };
   },
   mounted() {
@@ -96,6 +99,25 @@ export default {
     document.title = "Product End";
   },
   methods: {
+    handleEvent() {
+      this.isBlur = true;
+      console.log("it blur");
+    },
+    async tryOpen() {
+      console.log("click");
+      // let url = "line://ti/p/@434xepgn";
+      let url2 = "https://line.me/R/ti/p/@434xepgn";
+      window.addEventListener("blur", this.handleEvent);
+      // window.location = url;
+      this.showIframe = true;
+      setTimeout(() => {
+        if (!this.isBlur) {
+          window.location = url2;
+        }
+        window.removeEventListener("blur", this.handleEvent);
+        console.log("timeout it blur");
+      }, 100);
+    },
     openModel() {
       this.show = true;
       this.$nextTick(() => this.$refs.textInput.focus());
@@ -120,3 +142,10 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+iframe {
+  width: 1px;
+  height: 1px;
+}
+</style>

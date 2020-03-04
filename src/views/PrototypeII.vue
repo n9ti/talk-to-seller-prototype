@@ -14,11 +14,7 @@
 
           <div class="mt-4 flex items-center">
             <button
-              @click="
-                sendMessages(
-                  'https://shopee.co.th/Ready-Stock-NEW-BALANCE-M997NM-MADE-IN-USA1849378307-i.162968657.2495003037'
-                )
-              "
+              @click="sendMessages('https://shop.line.me/@jibicactus')"
               class="mx-2 w-full bg-green-400 text-xl text-white py-2 px-4 hover:bg-green-500 rounded"
             >
               Talk to seller
