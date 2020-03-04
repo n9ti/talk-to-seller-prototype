@@ -44,12 +44,20 @@ export default {
   methods: {
     async sendMessages(msg) {
       try {
-        window.liff.openWindow({
-          url: `line://oaMessage/@434xepgn/?${encodeURIComponent(msg)}`,
-          external: true
-        });
+        // window.liff.openWindow({
+        //   url: `line://oaMessage/@434xepgn/?${encodeURIComponent(msg)}`,
+        //   external: true
+        // });
+        window.open(
+          `line://oaMessage/@434xepgn/?${encodeURIComponent(msg)}`,
+          "_blank"
+        );
       } catch (e) {
-        window.location = `line://oaMessage/@434xepgn/?${msg}`;
+        // window.location = `line://oaMessage/@434xepgn/?${msg}`;
+        window.open(
+          `line://oaMessage/@434xepgn/?${encodeURIComponent(msg)}`,
+          "_blank"
+        );
       }
     }
   }
