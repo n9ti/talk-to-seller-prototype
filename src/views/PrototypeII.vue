@@ -29,8 +29,8 @@
               Buy Now
             </button>
           </div>
-          <a href="line://oaMessage/@434xepgn/?this_is_a_book@434xepgn/555"
-            >line://oaMessage/@434xepgn/?this_is_a_book@434xepgn/555</a
+          <a href="line://oaMessage/@mistoreonline/?this_is_a_book@505hylbr/666"
+            >line://oaMessage/@434xepgn/?this_is_a_book@434xepgn/666</a
           >
         </div>
       </div>
