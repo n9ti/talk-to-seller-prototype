@@ -29,7 +29,9 @@
               Buy Now
             </button>
           </div>
-          <a href="line://oaMessage/@mistoreonline/?this_is_a_book@505hylbr/666"
+          <br /><br /><br />
+          <a
+            href="line://oaMessage/@434xepgn/?https://shop.line.me?page=@434xepgn&product=318692170"
             >line://oaMessage/@434xepgn/?this_is_a_book@434xepgn/666</a
           >
         </div>
