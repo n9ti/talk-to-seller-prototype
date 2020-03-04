@@ -100,7 +100,7 @@ export default {
       this.$nextTick(() => this.$refs.textInput.focus());
     },
     async sendMessages() {
-      let url = "https://shop.line.me/@jibicactus";
+      let url = "https://shop.line.me/@herecomesthesummer/product/318692170";
       try {
         await window.liff.sendMessages([
           {
