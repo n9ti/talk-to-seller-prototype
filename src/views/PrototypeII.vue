@@ -16,7 +16,7 @@
             <button
               @click="
                 sendMessages(
-                  'สวัสดี3 \r\n https://shop.line.me/@herecomesthesummer/product/318692170 \r\n Hello'
+                  'สวัสดี4 \r\n https://shop.line.me/@434xepgn/product/318692170 \r\n Hello'
                 )
               "
               class="mx-2 w-full bg-green-400 text-xl text-white py-2 px-4 hover:bg-green-500 rounded"
