@@ -29,6 +29,9 @@
               Buy Now
             </button>
           </div>
+          <a href="line://oaMessage/@434xepgn/?this_is_a_book@434xepgn/555"
+            >line://oaMessage/@434xepgn/?this_is_a_book@434xepgn/555</a
+          >
         </div>
       </div>
     </section>
