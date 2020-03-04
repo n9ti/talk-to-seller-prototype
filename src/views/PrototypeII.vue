@@ -31,8 +31,8 @@
           </div>
           <br /><br /><br />
           <a
-            href="line://oaMessage/@434xepgn/?https://shop.line.me?page=@434xepgn&product=318692170"
-            >line://oaMessage/@434xepgn/?this_is_a_book@434xepgn/666</a
+            href="line://oaMessage/@434xepgn/?https://shop.line.me/@434xepgn::/product/318692170"
+            >line://oaMessage/@434xepgn/?this_is_a_book@434xepgn/777</a
           >
         </div>
       </div>
